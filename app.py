@@ -163,7 +163,7 @@ def load_data():
 
 # Function to generate PDF report
 @st.cache_data
-def generate_pdf_report(data, best_model, comparison_df, best_model_name, best_model_entry):
+def generate_pdf_report(data, _best_model, comparison_df, best_model_name, best_model_entry):
     """Generate comprehensive PDF report"""
     buffer = BytesIO()
     
@@ -225,7 +225,7 @@ def generate_pdf_report(data, best_model, comparison_df, best_model_name, best_m
         plt.close()
         
         # 3. Best Model - Actual vs Predicted
-        best_preds = best_model.predict(X_test)
+        best_preds = _best_model.predict(X_test)
         plt.figure(figsize=(10, 8))
         plt.scatter(y_test, best_preds, alpha=0.6, s=30, edgecolors='black', linewidth=0.5)
         
