@@ -290,7 +290,9 @@ Cross-Validation R² Mean: 0.9187
 
 ## 👥 Authors
 
-- **Your Name** - *Initial work* - [YourGitHub](https://github.com/yourusername)
+- **Prityanshu Yadav** – *Developer & Maintainer*  
+  [GitHub Profile](https://github.com/Prityanshu)
+
 
 ## 🙏 Acknowledgments
 
